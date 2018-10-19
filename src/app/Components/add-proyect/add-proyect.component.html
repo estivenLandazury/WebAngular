@@ -1,0 +1,50 @@
+<form (ngSubmit)="anadirProyectos()">
+
+  <div class="container">
+    <h1>Agregar Proyectos</h1>
+    <div class="panel panel-default">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Nombre</label>
+          <input type="text" name="nombre" class="form-control" id="text4" placeholder="Nombre" [(ngModel)]="proyecto.nombre">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">ID</label>
+          <input type="text" name="Id" class="form-control" id="text4" placeholder="Id" [(ngModel)]="proyecto.Id">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Estado</label>
+          <select name="Estado" class="form-control" [(ngModel)]="proyecto.Estado">
+            <option>En progreso</option>
+            <option>Terminado</option>
+          </select>
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">FechaInicio</label>
+          <input type="text" name="FechaInicio" class="form-control" id="text4" placeholder="FechaInicio" [(ngModel)]="proyecto.FechaInicio">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">FechaEntrega</label>
+          <input type="text" name="FechaEntrega" class="form-control" id="text4" placeholder="FechaEntrega" [(ngModel)]="proyecto.FechaEntrega">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Responsable</label>
+          <input type="text" name="Responsable" class="form-control" id="tex" placeholder="Responsable" [(ngModel)]="proyecto.Responsable">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Descripción</label>
+          <textarea name="Descripcion" class="form-control rounded-0" id="exampleFormControlTextarea1" [(ngModel)]="proyecto.Descripcion"></textarea>
+        </div>
+      </div>
+      <div class="form-group" id="Responsable">
+        <label for="inputAddress">Resposnable</label>
+        <input type="text" name="Responsable" class="form-control" id="inputAddress" placeholder="1234 Main St"
+          [(ngModel)]="proyecto.Responsable">
+      </div>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Agregar</button>
+  </div>
+</form>

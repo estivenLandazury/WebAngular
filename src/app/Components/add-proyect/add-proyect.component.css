@@ -1,0 +1,17 @@
+form.ng-untouched.ng-pristine.ng-valid {
+    width: 74%;
+    margin-top: 10%;
+    margin-left: 9%;
+}
+
+textarea#exampleFormControlTextarea1 {
+    height: 211%;
+}
+div#Responsable {
+    margin-top: 6%;
+    width: 49%;
+}
+
+.panel.panel-default {
+    margin-top: 4%;
+}

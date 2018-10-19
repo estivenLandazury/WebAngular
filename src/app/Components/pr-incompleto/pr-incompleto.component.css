@@ -1,0 +1,21 @@
+.card {
+    margin-top: 6%;
+}
+
+button.btn.btn-primary {
+    /* margin-left: 2%; */
+    margin-right: 2%;
+    width: 48%;
+    font-size: 92%;
+    margin-top: 2%;
+}
+
+.row {
+    margin-top: 5%;
+}
+
+button#modal[_ngcontent-c2] {
+    width: 23%;
+    margin-right: 31%;
+    margin-top: 0%;
+}
